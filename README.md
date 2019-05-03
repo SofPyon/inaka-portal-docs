@@ -3,6 +3,18 @@
 
 https://docs.inaka-portal.soji.dev/
 
+## ドキュメントをローカル PC で見る
+ローカル PC 上に Node.js がインストールされている必要があります。
+
+```bash
+$ npm install
+
+# ローカルサーバーを起動する
+$ npx run serve
+# http://localhost:3000 にアクセスするとドキュメントを閲覧できます
+# ローカルサーバーを停止するには control + C を押してください
+```
+
 ## ドキュメントに貢献する
 Issue や Pull Request は大歓迎です。
 
